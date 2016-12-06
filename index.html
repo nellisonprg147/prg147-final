@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>PRG 147 Final</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body class="body">
+<div class="container">
+    <h4 class="header">
+        <div class="title">Long Distance Cycling Adventures
+            <div class="subTitle">Selecting the right gear for your adventure is just clicks away!</div>
+            <div id="instruction">Help</div>
+            <div id="clock"></div>
+        </div>
+    </h4>
+    <!-- the menu div -->
+    <nav class="menu">
+        <div id="menuOne">Types of Accommodations</div>
+        <div id="menuTwo">Sleeping Gear</div>
+        <div id="menuThree">Riding Gear</div>
+        <div id="menuFour">Entertainment and Food</div>
+    </nav>
+    <!-- Panel One Accommodations -->
+    <div id="panel">
+        <div class="menuItems" id="Hotel Stays" alt="350.00">Hotel Stays</div>
+        <div class="menuItems" id="Tent Camping" alt="50.00">Tent Camping</div>
+        <div class="menuItems"id="Light Weight Camping" alt="150.00">Light Weight Camping</div>
+    </div>
+    <!-- Panel Two Sleeping Gear -->
+    <div id="panelTwo">
+        <div class="menuItems" id="Therm-a-rest" alt="59.99">Therm-a-rest</div>
+        <div class="menuItems" id="Sleeping Bags" alt="79.99">Sleeping Bags</div>
+        <div class="menuItems" id="Pillows" alt="24.99">Pillows</div>
+    </div>
+
+    <!-- Panel Three Riding Gear -->
+    <div id="panelThree">
+        <div class="menuItems" id="Bags" alt="29.99">Bags</div>
+        <div class="menuItems" id="Panniers" alt="69.99">Panniers</div>
+        <div class="menuItems" id="Racks" alt="35.99">Racks</div>
+    </div>
+
+    <!-- Panel Four Entertainment and Food -->
+    <div id="panelFour">
+        <div class="menuItems" id="Heat Sources" alt="39.99">Heat Sources</div>
+        <div class="menuItems" id="Food Choices" alt="79.99">Food Choices</div>
+        <div class="menuItems" id="Entertainment" alt="50.00">Entertainment</div>
+    </div>
+
+    <!-- cost box -->
+    <div id="costBox" >
+         <p>Your esitmated Supply Cost is: <span>  </span></p>
+    </div>
+
+
+    <!-- Check list -->
+    <div id="checkListBox"></div>
+    <div id="checkList">"Item Checklist:
+        <div class="list"></div>
+    </div>
+
+        <!-- this is where I will put my code
+          <div ng-app="myApp" ng-controller="myCtrl">
+              <h1> Text stuff</h1>
+              <p>Instructions for use of the page</p>
+
+              <!-- this is where I will put my code -->
+
+        <!-- estimate output
+        <p>Cost to mow your lawn will be: {{ (((frontYardLength *  frontYardWidth)* .1)+ ((backYardLength * backYardWidth)
+            * .1) +((leftSideYardLength * leftSideYardWidth)* .1) + ((rightSideYardLength * rightSideYardWidth) * .1))
+            | currency}}</p>
+            -->
+    </div>
+</div>
+
+<script src="myApp.js"></script>
+<script src="myCtrl.js"></script>
+</body>
+<div class="footer">
+    <p><a href="http://nellison.mccdgm.net/index.html">Assignment Index</a></p>
+</div>
+
+
+</html>
